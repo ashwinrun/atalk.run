@@ -34,7 +34,8 @@ h2 {
   font-size: 2em;
 }
 h3 {
-  font-size: 1.5em;
+  font-size: 1.4em;
+  line-height: 120%;
 }
 h4 {
   font-size: 1.2em;
@@ -277,6 +278,10 @@ main > section {
 
 #pricing .features section {
   width: 333px;
+}
+
+.features section ul {
+  padding-left: 10px;
 }
 
 pre,
