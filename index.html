@@ -22,6 +22,11 @@
 
       gtag('config', 'UA-167434515-1');
     </script>
+    <script>
+      Array.prototype.sample = function(){
+        return this[Math.floor(Math.random()*this.length)];
+      }
+    </script>
   </head>
   <body>
    <!-- <div class="banner">
@@ -34,28 +39,30 @@
     <header>
       <h1>atalk</h1>
       <p class="subtitle">Tired of Twitter? We can help you own your own social presence.</p>
+      <p class="subtitle">It's as easy as creating a webmail account.</p>
       <!-- <div class="parcel">
         <img src="assets/lightning.svg" height="274" />
         <div class="icons"></div>
       </div> -->
-      <!-- <div class="button-container">
-        <a class="button get-started"  href="https://docs.google.com/forms/d/e/1FAIpQLSd0e6L9Kuyp7szIfJ3V9BPYY3SgMNGHvsisa3EqXEJRfd7DHg/viewform">One-hour consultation</a>
-        <a class="button get-started"  href="https://docs.google.com/forms/d/e/1FAIpQLSd0e6L9Kuyp7szIfJ3V9BPYY3SgMNGHvsisa3EqXEJRfd7DHg/viewform">Submit project request</a>
-      </div> -->
+      <p>
+        <div class="button-container">
+          <a class="button get-started" href="https://forms.gle/LLwbd17spYctAv7o6">Sign up</a>
+        </div>
+      </p>
     </header>
 
     <main>
       <div class="features">
         <section>
-          <h3>🚀 Powered by Mastodon</h3>
+          <h3>🐘 Powered by Mastodon</h3>
           <p>
-            We use <a href="https://joinmastodon.org/">Mastodon</a> to give you full control of your social media content. We handle the heavy lifting to set up the instance, leaving you to customize your Mastodon community and follow users across the fediverse.
+            We use <a href="https://joinmastodon.org/">Mastodon</a> to give you full control of your social media content. We handle the heavy lifting to set things up. All you need to do is customize your community and start following users and posting across the fediverse.
           </p>
         </section>
         <section>
           <h3>🌐 Create a social domain</h3>
           <p>
-            Create your own social presence on a domain. For example, Kal can create a social presence at <code>kal@kal.atalk.run</code>. Or individuals can configure a custom domain: <code>satya@microsoft.com</code>.
+            Create your own social presence on your own domain. For example, Kal can create a social presence at <code>kal@kal.atalk.run</code>. Or individuals can configure a custom domain such as <code>siva@examplesoft.com</code>.
           </p>
         </section>
         <section>
@@ -67,7 +74,7 @@
         <section>
           <h3>🏢 Organizations</h3>
           <p>
-            Create your own social community for your organization and maintain your brand and control your data, for companies, nonprofits, journalists, students, and more. For example: <code>arvind@mit.edu</code> or <code>siva@nytimes.com</code>.
+            Create your own social community for your organization and maintain your brand and control your data, for companies, nonprofits, journalists, students, and more. For example: <code>arvind@rtech.edu</code> or <code>siva@xxdaily.com</code>.
           </p>
         </section>
       </div>
@@ -89,16 +96,62 @@
         <br style="clear: both" />
       </section> -->
 
-      <!-- <section id="consultation">
-        <h2>Request a Consultation</h2>
+      <div id="pricing">
+        <h2><center>Our Mission and Pricing</center></h2>
+        <h4>Our mission is to democratize access to owning your own social presence on the Internet. We aim to charge what we need to keep the servers running and your data safe.</h4>
+        <div class="features">
+          <section>
+            <h3><script>document.write(["🙋🏽‍♀️","🧑🏿‍💻","💁🏻‍♂️"].sample());</script>
+              <strong>Individual:</strong> Free</strong>
+            </h3>
+            <p>
+              <ul>
+                <li>Single account support: <code>name@XXX.atalk.run</code></li>
+                <li>3 GB storage space</li>
+                <li>Upgrade to Premium—$1 / month—for custom domain support and 10 GB storage space</li>
+                <li>Customize your theme and layout</li>
+              </ul>
+            </p>
+          </section>
+          <section>
+            <h3><script>document.write(["👨‍👩‍👧‍👦","🏫","🚌","🎓"].sample());</script>
+              <strong>Nonprofit and education:</strong> 50¢ / user / month</strong>
+            </h3>
+            <p>
+              <ul>
+                <li>Available to nonprofit organizations, students, and faculty</li>
+                <li>Create multiple user accounts on a custom domain: <code>name@XXX.edu</code></li>
+                <li>10 GB storage space / user</li>
+                <li>Full white-label, customization experience</li>
+              </ul>
+            </p>
+          </section>
+          <section>
+            <h3><script>document.write(["🏙","🏰","🌇","🏆"].sample());</script>
+              <strong>Enterprise:</strong> $1 / user / month</strong>
+            </h3>
+            <p>
+              <ul>
+                <li>Much cheaper than <a href="https://www.theverge.com/2022/12/10/23503355/twitter-blue-verification-elon-musk-phone-number-ads">$8 / month!</a></li>
+                <li>Create multiple user accounts available on a custom domain: <code>name@XXX.com</code></li>
+                <li>10 GB storage space / user</li>
+                <li>Full white-label, customization experience</li>
+              </ul>
+            </p>
+          </section>
+        </div>
+      </section>
+
+      <section id="consultation">
+        <h2>Get Started</h2>
+        <h4>Want to get started? atalk is currently in limited preview. Fill out the interest form below to get updates and join the waitlist, and we'll contact you once it's available.</h4>
         <p>
           <div class="button-container">
-            <a class="button get-started"  href="https://docs.google.com/forms/d/e/1FAIpQLSd0e6L9Kuyp7szIfJ3V9BPYY3SgMNGHvsisa3EqXEJRfd7DHg/viewform">One-hour consultation</a>
-            <a class="button get-started"  href="https://docs.google.com/forms/d/e/1FAIpQLSd0e6L9Kuyp7szIfJ3V9BPYY3SgMNGHvsisa3EqXEJRfd7DHg/viewform">Submit project request</a>
+            <a class="button get-started" href="https://forms.gle/LLwbd17spYctAv7o6">Sign up</a>
           </div>
         </p>
        
-      </section> -->
+      </section>
 
       <!-- <section id="clients">
         <h2>Our Business Partners</h2>
@@ -157,7 +210,7 @@
         <script>
           document.write(new Date().getFullYear())
         </script>
-        <a href="https://ashwin.run">Ashwin Run LLC</a>.
+        ⚡️<a href="https://ashwin.run">Ashwin Run LLC</a>.
         
         This website is
         <a href="https://github.com/epicfaace/atalk.run" >open source</a>.
